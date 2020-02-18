@@ -6,14 +6,13 @@
     <title>Tutorial</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway:900,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="Scripts\Main.css"> 
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 </head>
 <body >
 
   <header class="header-paralax">
     <table  width="100%" height="100%" id="table">
 	<tr width= 33%>
-	<td id="etec">
+	<td id="etec"><img src="Scripts\Imagens\BannerTuturial.png"></img>
 	</td>
 	<td id="meio">Tutorial
 	</td>
