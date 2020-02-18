@@ -11,7 +11,7 @@ window.addEventListener('scroll', scrollBanner);
 function Readly() {
 var url_atual = window.location.href
 
-if (url_atual == "file:///E:/Etec/2%C2%BA%20Ano/1%C2%BA%20Bimestre/BD_II/Tuturial_MySql/index.HTML#openModal") {
+if (url_atual == "https://tutorialopal.herokuapp.com/#openModal") {
        document.getElementById("openModal").addEventListener("load", Xampp());
     }
 	setTimeout(Readly(), 2)
