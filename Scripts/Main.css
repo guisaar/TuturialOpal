@@ -82,7 +82,8 @@ color:var(--Titulo);
 	text-shadow: 2px 2px 2px black;
 	
 }
-#table #etec{	
+#table #etec{
+background-image: url("Scripts\Imagens\BannerTutorial.png");
 border: 2px solid var(--border);
 width:40%
 	
