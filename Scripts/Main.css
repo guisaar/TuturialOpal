@@ -83,7 +83,7 @@ color:var(--Titulo);
 	
 }
 #table #etec{
-background-image: url("Scripts\Imagens\BannerTutorial.png");
+background-image: url("Imagens\BannerTutorial.png");
 border: 2px solid var(--border);
 width:40%
 	
