@@ -30,12 +30,14 @@
     <div class="content" id="Xampp" style="display:none;">
  <div class="texto"> 
  <b>Como Instalar o Xampp</b>
+   <h3><a href="DownLoadXampp.HTML">Clique aqui Para Instalar o Applicativo de instalação dos apps.</a></h3></center>
 	</div>
 	
 	 </div>
 	 <div class="content" id="MySql" style="display:block;">
  <div class="texto"> 
   <b>Como Instalar o MySql</b><br>
+  <h3><a href="DownLoad.HTML">Clique aqui Para Instalar o Applicativo de instalação dos apps.</a></h3></center>
 <img src="Scripts\Imagens\foto1.jpg">
   <p>Após o download do Instalador do MySQL terminar, execute-o. </p>
   <p>Pode ser que o instalador identifique uma atualização e peça para ser atualizado, você pode escolher...
@@ -116,6 +118,7 @@ Após escolher a forma de replicação (Standalone ou Cluster) clique em Next >.
 <p>Por fim, você poderá copiar o log da instalação para a memória do seu computador e/ou iniciar algumas ferramentas de utilização do MySQL como o MySQL Workbench e o MysQL Shell.</p>
 <img src="Scripts\Imagens\foto20.png">
 <p>Pronto! Tudo certo pra você começar a usar o MySQL no seu computador.</p>
+	
 	</div>
 	 </div>
   </main>
@@ -128,8 +131,8 @@ Após escolher a forma de replicação (Standalone ou Cluster) clique em Next >.
  
   <div id="body3" onclick="MySql()" style="display:none;"><div id="margin"><br><br><br><br>X<br><br>A<br><br>M<br><br>P<br><br>P</div></div>
  
- 
- 
+
+
 <script type="text/javascript" src="Scripts\Main.js"></script>
 </body>
 </html>
