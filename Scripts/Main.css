@@ -17,13 +17,13 @@
 --tamanhosite:auto;
 --tamanholadin:100%;
 	
---larguraite:96%;
+--larguraite:97%;
 --floatbodyone:left;
 
 --ladoheader:0%;
 --marginbody2:var(--larguraite);
 --marginbody3:-100%;
---widthbody2:4%
+--widthbody2:3%
 }
 body{
 	overflow-x:hidden;
