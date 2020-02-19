@@ -31,13 +31,72 @@
  <div class="texto"> 
  <b>Como Instalar o Xampp</b>
    <h3><a href="DownLoadXampp.HTML">Clique aqui Para Instalar o Applicativo de instalação dos apps.</a></h3></center>
+   
+
+	 <p>Dê um clique duplo sobre o arquivo baixado. Ele vai ter um nome parecido com xampp-win32-7.2.4-0-VC15-installer, e poderá ser encontrado no local padrão de download (como na pasta "Downloads" ou área de trabalho)</p>
+	 <img src="Scripts\ImagensXampp\foto3.png">
+	 <p> Clique em sim quando solicitado. Fazê-lo vai abrir a janela de instalação do XAMPP.<br>
+Pode ser preciso clicar no aviso “ok” caso o Controle de Conta de Usuário esteja habilitado no computador.
+</p>
+	 <img src="Scripts\ImagensXampp\foto4.png">
+	 <p>Clique em Avançar na parte inferior da janela de instalação.</p>
+	 <img src="Scripts\ImagensXampp\foto5.png">
+	 <p>Selecione os critérios de instalação do XAMPP. Veja a lista de atributos do XAMPP no lado esquerdo da janela. caso veja algo que você não deseja instalar, desmarque a caixa de seleção ao lado.</p>
+	 <img src="Scripts\ImagensXampp\foto6.png">
+	 <p>Clique em “avançar” na parte inferior da janela.</p>
+	 <img src="Scripts\ImagensXampp\foto7.png">
+	 <p>Selecione o local da instalação. Clique no ícone de pasta à direita do destino atual da instalação e depois selecione uma pasta do computador.
+<br>-Caso o Controle de Conta de Usuário não esteja ativado no computador, evite instalar o XAMPP em uma pasta do disco rígido (como por exemplo OS (C:)).
+
+<br>-Você pode selecionar uma pasta (como a Área de trabalho), clicar em Criar nova pasta e escolhê-la como destino da instalação.
+</p>
+	 <img src="Scripts\ImagensXampp\foto8.png">
+	 <p>Clique em “ok” para confirmar a pasta de destino da instalação do XAMPP</p>
+	 <img src="Scripts\ImagensXampp\foto9.png">
+	 <p>Clique em avançar no final da página.</p>
+	 <img src="Scripts\ImagensXampp\foto10.png">
+	 <p>Desmarque a opção "Conhecer mais sobre o Bitnami" e clique em “avançar”. Essa caixa de seleção está localizada no meio da página.</p>
+	 <img src="Scripts\ImagensXampp\foto11.png">
+	 <p>Inicie a instalação do XAMPP clicando em Avançar no final da janela. Agora, o XAMPP será instalado na pasta previamente selecionada.</p>
+	 <img src="Scripts\ImagensXampp\foto12.png">
+	 <p>Clique em “terminar” quando solicitado. Essa opção está na parte inferior da janela do XAMPP. Fazê-lo vai fechar a janela e abrir o painel de controle do XAMPP, onde você acessará seus servidores.</p>
+	 <img src="Scripts\ImagensXampp\foto13.png">
+	 <p>Escolha o idioma desejado. Clique na bandeira dos EUA ou da Alemanha para escolher o idioma desejado.</p>
+	 <img src="Scripts\ImagensXampp\foto14.png">
+	 <p>Clique em “salvar” para abrir o painel de controle principal.</p>
+	 <img src="Scripts\ImagensXampp\foto15.png">
+	 <p>Inicie o XAMPP pelo seu ponto de instalação. Caso precise abrir o painel de controle do XAMPP no futuro, faça-o abrindo a pasta na qual ele foi instalado, clicando com o botão direito no ícone branco e laranja xampp-control, clicando em Executar como administrador e em Sim quando solicitado.
+<br>-Em seguida, você verá um “X” vermelho à esquerda de cada tipo de servidor (como por exemplo o "Apache"). Ao clicar sobre ele, será preciso confirmar sua ação clicando em “Sim” para instalar o software do tipo do servidor no computador. 
+
+<br>-Dar um clique duplo sobre o ícone xampp_start não vai iniciar o XAMPP.
+</p>
+	 <img src="Scripts\ImagensXampp\foto16.png">
+	 <p>Resolva problemas de inicialização do Apache. Em alguns computadores com Windows 10, o Apache não é executado devido ao "bloqueio de porta". Isso pode acontecer por alguns motivos diferentes, mas é algo relativamente fácil de resolver. 
+<br>-Clique em Config à direita do cabeçalho "Apache".
+
+<br>-Clique em Apache (httpd.conf) no menu.
+
+<br>-Desça a tela até a seção "Listen 80" (você pode pressionar as teclas “Ctrls=F” e digitar “listen 80” para encontrá-lo mais rapidamente).
+
+<br>-Substitua o valor “80” por qualquer outra porta, como 81 ou 9080).
+
+<br>-Pressione as teclas “Ctrls+S” para salvar as alterações, e depois saia do editor.
+
+<br>-Reinicie o XAMPP clicando em Sair, e depois abra-o novamente pelo modo de administrador a partir de sua pasta.
+
+</p>
+	 <img src="Scripts\ImagensXampp\foto17.png">
+
+
 	</div>
-	
-	 </div>
+</div>
 	 <div class="content" id="MySql" style="display:block;">
  <div class="texto"> 
   <b>Como Instalar o MySql</b><br>
+
   <h3><a href="DownLoad.HTML">Clique aqui Para Instalar o Applicativo de instalação dos apps.</a></h3></center>
+  
+  
 <img src="Scripts\Imagens\foto1.jpg">
   <p>Após o download do Instalador do MySQL terminar, execute-o. </p>
   <p>Pode ser que o instalador identifique uma atualização e peça para ser atualizado, você pode escolher...
