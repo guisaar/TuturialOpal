@@ -98,85 +98,73 @@ Pode ser preciso clicar no aviso “ok” caso o Controle de Conta de Usuário e
   
   
 <img src="Scripts\Imagens\foto1.jpg">
-  <p>Após o download do Instalador do MySQL terminar, execute-o. </p>
-  <p>Pode ser que o instalador identifique uma atualização e peça para ser atualizado, você pode escolher...
-Eu preferi atualizar o instalador do MySQL. Neste caso ele vai baixar a atualização e em seguida iniciar o processo de instalação.
-</p>
+  <p>Primeiramente, clique no ícone demonstrado acima, logo em seguida irá aparecer uma mensagem que lhe permite escolher se deseja atualizar ou não para a versão mais recente, o que é o mais recomendado, então escolha “Sim ou “Não”, como na imagem a seguir: </p>
+
 <img src="Scripts\Imagens\foto2.png">
-<p>A primeira tela do instalador do MySQL pede para aceitar os termos de licença. Se concordar aceite (marcando o checkbox I accept the license terms) e clique em Next.</p>
+<p>A primeira tela que será apresentada será os termos de licença do MySQL. Caso concorde com estes termos, clique em aceitar, e pressione “Next”.</p>
 <img src="Scripts\Imagens\foto3.png">
-<p>Em seguida o instalador nos oferece 5 opções de instalação:<br>
-	Padrão de desenvolvedor: inclui o servidor Mysql, ferramentas como Shell, Router e Workbench, conectores, etc.<br>
-	Somente o servidor<br>
-	Somente cliente: não instala o servidor MySQL<br>
-	Completo: Tudo!<br>
-	Personalizado<br>
-Eu sempre escolho personalizado pois nunca preciso de todos os conectores nem todas as ferramentas. E se precisar também, basta executar o instalador denovo e instalar o compoenente que eu precisar.
-Escolha o que preferir e clique em Next >.
+<p>2.	Subsequentemente ira surgir todas as possibilidades de instalação do MySQL
+<br>	Desenvolvedor: inclui o servidor Mysql, e outras ferramentas não apropriadas para um usuário final.
+<br>	Apenas Servidor: Instala apenas o MySQL
+<br>	Apenas Usuário: Deixa de instalar o servidor MySQL
+<br>	Completo: Introduz todos os recursos
+<br>	Personalizado
+
+<br>Escolha a mais apropriada para seu objetivo, logo pressione “Next” novamente.
+
 </p>
 <img src="Scripts\Imagens\foto4.jpg">
-<p>Se você, assim como eu, escolhou a opção de personalizar a instalação, você poderá escolher o que quer instalar.<br>
-Selecione o que quer instalar e clique na setinha para direita. Se quiser remover algum componete da instalação, selecione-o e clique na setinha para esquerda.
-Escolha o que quer que seja instalado (o que ficará na lista da direita) e clique em Next >.
+<p>Caso você tenha escolhido a opção “Personalizado”, você poderá:
+<br>•	Selecione o que quer instalar e clique na setinha para direita. 
+<br>•	Se quiser remover algum componente da instalação, selecione-o e clique na setinha para esquerda.
+<br>Após escolher os melhores pacotes para seu objetivo, basta clicar em “Next”.
+
 </p>
 <img src="Scripts\Imagens\foto5.png">
-<p>Se você, assim como eu, escolhou a opção de personalizar a instalação, você poderá escolher o que quer instalar.<br>
-Selecione o que quer instalar e clique na setinha para direita. Se quiser remover algum componete da instalação, selecione-o e clique na setinha para esquerda.
-<br>Escolha o que quer que seja instalado (o que ficará na lista da direita) e clique em Next >.
+<p>Em seguida o instalador irá analisar se falta algum recurso para instalar os componentes solicitados.
+<br>Basta clicar em Execute, para arrumar essas dependências e prosseguir a instalação.
+
 </p>
 <img src="Scripts\Imagens\foto6.png">
-<p>No meu caso o instalador do Visual C++ 2013 foi baixado e executado automaticamente. Bastou aceitar os termos e clicar em Install.
-<br>Após finalizar a instalação do Visual C++ 2013, o instalador do MySQL identifica que as dependências já estão resolvidas.
-<br>Se tiver mais de uma dependência para ser instalada no seu computador o instalador do MySQL não vai continuar enquando não atender os requisitos.
-<br>Quando as dependências estiverem devidamente instaladas, clique em Next >.
+<p>
+Acima é possível evidenciar que o Visual C++ não foi instalado, bastou clicar na dependência e clicar em “Install”, que este problema foi solucionado automaticamente, como é possível visualizar na imagem a seguir:
+<br>Quando todos os requisitos forem instalados, clique em ”Next” >.
+
 </p>
 <img src="Scripts\Imagens\foto7.png">
-<p>Por fim, o instalador apresenta o que será baixado (se você escolheu o instalador mais leve que baixa o que precisa na hora da instalação) e instalado no seu computador. Se estiver tudo certo, clique em Execute.</p>
+<p>Por fim, será apresentado pela o instalador tudo o que foi a abaixado, caso esteja tudo seguindo suas escolhas, apenas clique em “Execute”</p>
 <img src="Scripts\Imagens\foto8.png">
-<p>Agora o instalador vai baixar tudo que precisa (se precisar)...</p>
+<p>Então finalmente será executado a instalação, se estiver tudo certo irá parecer como a imagem a seguir (Não precisa ter o mesmo tanto de recursos instalados):</p>
 <img src="Scripts\Imagens\foto9.png">
-<p>E instalar os componentes que você escolheu, um por um...</p>
+<p>Caso você escolha instalar qualquer componente que precisa de configuração como servidor SGBD MySQL, será solicitado as configurações básicas pelo instalador. Logo em seguida, pressione “Next”.</p>
 <img src="Scripts\Imagens\foto10.png">
-<p>Após todos os componentes estiverem instalados, clique em Next >.</p>
+<p>Para configurar o servidor do MySQL, será disposto duas opções: Standalone e Cluster.
+<br>A primeira opção é a mais recomendada para aqueles que não farão uso do Cluster.
+<br>Em seguida pressione “Next”.
+</p>
 <img src="Scripts\Imagens\foto11.png">
-<p>Se você escolheu instalar algum componente que precisa de configuração como servidor SGBD MySQL, o instalador solicita que as configurações básicas sejam configuradas.
-<br>No meu caso era só o servidor MySQL que precisava de configuração. Clique em Next >.
+<p>Agora será apresentado algumas configurações de rede, mude o que for necessário, e pressione “Next”.
 </p>
 <img src="Scripts\Imagens\foto12.png">
-<p>Para configurar o servidor do MySQL, o instalador oferece duas opções: Standalone ou Cluster.
-<br>Se você está configurando um servidor para desenvolvimento e não precisa trabalhar com "Cluster", escolha a primeira opção.
-<br>Após escolher a forma de replicação (Standalone ou Cluster) clique em Next >.
+<p>Na próxima tela, selecione a primeira opção como medidas de segurança, pois esta dará uma senha para a sua rede
+<br>Clique em “Next” e prossiga.
+
 </p>
 <img src="Scripts\Imagens\foto13.png">
-<p>Para configurar o servidor do MySQL, o instalador oferece duas opções: Standalone ou Cluster.
-Se você está configurando um servidor para desenvolvimento e não precisa trabalhar com "Cluster", escolha a primeira opção.
-Após escolher a forma de replicação (Standalone ou Cluster) clique em Next >.
+<p>Então será exigido que você defina um usuário e uma senha, para um usuário “root”, isto é, um administrador. Após decidir a senha e o nome do usuário prossiga pressionando “Next”.
 </p>
 <img src="Scripts\Imagens\foto14.png">
-<p>Na sequência, chega o momento de configurar a forma de acesso do usuário principal do SGBD MySQL.
-<br>Você pode escolher se quer um método de autenticação com senha encriptada (recomendado) ou o método antigo de autenticação.
-<br>Eu prefiro o mais seguro! =P
-<br>E se você for usar MySQL com versão 8.0 ou superior você precisará escolher esta opção.
-<br>Clique em Next após se decidir entre as duas opções.
+<p>Subsequentemente, será mostrado pelo instalador opções de inicialização do MySQL, como um serviço do Windows, onde você pode renomear este processo, caso deseje, quando tudo estiver configurado, avance com “Next”.
 </p>
 <img src="Scripts\Imagens\foto15.png">
-<p>A tela seguinte pede para definirmos uma senha para o usuário root, ou seja, o usuário administrador.
-<br>A sua senha pode ser considerada fraca, média ou forte ... É bom usar uma senha complicada, mas você precisa lembrar dela! rs
-<br>Independente se você criar uma senha forte ou fraca, você poderá continuar com a instalação do MySQL. Mas é necessário que você digite a mesma senha, exatamente igual, nos dois campos apresentados. Clique em Next > para continuar.
-</p>
+<p>O instalador irá apresentar tudo que será feito em resumo, prossiga apenas pressionando o “Execute”.</p>
 <img src="Scripts\Imagens\foto16.png">
-<p>Seguindo o processo de instalação, nós podemos configurar se queremos que o servidor do MySQL seja gerenciado como um processo do Windows, se deve ser iniciado quando o sistema iniciar e sob qual usuário o processo do servidor do MySQL deve ser executado.
-<br>Eu prefiro que o servidor do MySQL seja executado como um serviço do Windows mesmo, iniciado junto com o Windows e sob o usuário padrão.
-<br>Após escolher, clique em Next >.
+<p>Quando o processo terminar pressione “Finish”, para prosseguir a instalação.
 </p>
 <img src="Scripts\Imagens\foto17.png">
-<p>Para finalizar a configuração do MySQL, o instalador nos mostra um resumo do que será feito. Só precisamos clicar em Execute.</p>
-<img src="Scripts\Imagens\foto18.png">
-<p>Após o processo de configuração terminar, basta clicar em Finish.</p>
-<img src="Scripts\Imagens\foto19.png">
-<p>Por fim, você poderá copiar o log da instalação para a memória do seu computador e/ou iniciar algumas ferramentas de utilização do MySQL como o MySQL Workbench e o MysQL Shell.</p>
-<img src="Scripts\Imagens\foto20.png">
-<p>Pronto! Tudo certo pra você começar a usar o MySQL no seu computador.</p>
+<p>Com tudo isto feito, você pode desfrutar o uso do MySQL Workbench, como um manipulador de banco de dados.</p>
+
+
 	
 	</div>
 	 </div>
