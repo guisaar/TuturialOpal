@@ -3,7 +3,7 @@
 --colorTitulo2:white;
 
 --Colorheader1: rgb(0,89,131);
---Colorheader2: orange;
+--Colorheader2: #fb7a24;
 
 --header: rgb(0,89,131);
 --Titulo:white;	
@@ -14,7 +14,7 @@
 --linhaazul: rgb(35,63,126);	
 
 --tamanhoheader:100px;
---tamanhosite:auto;
+--tamanhosite:800px;
 --tamanholadin:100%;
 	
 --larguraite:96%;
@@ -76,7 +76,7 @@ font-weight:600
 	
 }
 #table #data{
-width:10%;
+width:15%;
 font-size:12px;
 color:var(--Titulo);
 	text-shadow: 2px 2px 2px black;
@@ -84,9 +84,8 @@ color:var(--Titulo);
 }
 #table #etec{	
 
-border: 2px solid var(--border);
-width:40%;
-height:96px;
+width:35%;
+height:90px;
 	
 }
 #etec img {
